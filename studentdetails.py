@@ -1,5 +1,6 @@
 import sys
-
+def sum(x, y):
+    return x + y
 
 if len(sys.argv) == 3:
     script_name = sys.argv[0]
